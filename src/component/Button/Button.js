@@ -3,6 +3,17 @@ import PropTypes from 'prop-types';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import {Label, ButtonWrapper} from './Button.style';
 
+type Props = {
+  onPress: Function,
+  icon: string,
+  iconName: string,
+  iconColor: string,
+  label: string,
+  testID: string,
+  labelColor: string,
+  backgroundColor: string,
+  margin: number,
+};
 const Button = ({
   onPress,
   icon,
@@ -13,7 +24,7 @@ const Button = ({
   labelColor,
   backgroundColor,
   margin,
-}) => {
+}: Props) => {
   return (
     <ButtonWrapper
       testID={testID}

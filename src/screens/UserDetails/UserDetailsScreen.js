@@ -5,9 +5,14 @@ import {userAction} from '../../redux/actions';
 import {useDispatch} from 'react-redux';
 import Strings from '../../Constant';
 import Button from '../../component/Button/Button';
-import {Container, Label, Input, Title} from './UserDetailsScreen.style';
+import {Container, Input, Title} from './UserDetailsScreen.style';
+import {NavigationState, NavigationScreenProp} from 'react-navigation';
 
-const UserDetailsScreen = ({navigation}) => {
+type Props = {
+  navigation: NavigationScreenProp<NavigationState>,
+};
+
+const UserDetailsScreen = ({navigation}: Props) => {
   const [userName, setUserName] = useState('');
   const dispatch = useDispatch();
 

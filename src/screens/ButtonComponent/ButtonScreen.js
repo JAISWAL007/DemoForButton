@@ -13,9 +13,14 @@ import {
   SwipeButtonView,
 } from './ButtonScreen.style';
 import Strings from '../../Constant';
+import {NavigationState, NavigationScreenProp} from 'react-navigation';
+
 const DiamondIcon = () => <Icon name="diamond" color="#fff" size={20} />;
 
-const ButtonScreen = ({navigation}) => {
+type Props = {
+  navigation: NavigationScreenProp<NavigationState>,
+};
+const ButtonScreen = ({navigation}: Props) => {
   const onPress = () => {
     Alert.alert('Error', Strings.COMING_SOON, [{text: 'Ok'}]);
   };

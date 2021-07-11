@@ -7,7 +7,14 @@ import Strings from '../../Constant';
 import Button from '../../component/Button/Button';
 import {Container, SubContainer, LabelWrapper, Title} from './Dashboard.style';
 
-const Dashboard = ({navigation}) => {
+
+import {NavigationState, NavigationScreenProp} from 'react-navigation';
+
+type Props = {
+  navigation: NavigationScreenProp<NavigationState>,
+};
+
+const Dashboard = ({navigation}: Props) => {
   const [isEmulator, setIsEmulator] = React.useState('');
   const storeUserName = useSelector(state => state?.UserDetails?.name);
 
