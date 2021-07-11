@@ -11,6 +11,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		18215A4B269A1B4A008181CD /* RTCDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18215A4A269A1B4A008181CD /* RTCDeviceInfo.m */; };
 		4FE3C4E52695C3E800FB698C /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE3C4E42695C3E800FB698C /* libRNVectorIcons.a */; };
 		B7740562D7CC6D29FC0D077A /* libPods-DemoForButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBAC3BA92FDAFB2FAB087F8C /* libPods-DemoForButton.a */; };
 		FEC84278C92064C0180F9736 /* libPods-DemoForButton-DemoForButtonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30159466B27E592A2D08EE13 /* libPods-DemoForButton-DemoForButtonTests.a */; };
@@ -37,6 +38,8 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DemoForButton/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DemoForButton/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DemoForButton/main.m; sourceTree = "<group>"; };
+		18215A49269A1B4A008181CD /* RTCDeviceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTCDeviceInfo.h; sourceTree = "<group>"; };
+		18215A4A269A1B4A008181CD /* RTCDeviceInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTCDeviceInfo.m; sourceTree = "<group>"; };
 		30159466B27E592A2D08EE13 /* libPods-DemoForButton-DemoForButtonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoForButton-DemoForButtonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE3C4C22695C1EE00FB698C /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
 		4FE3C4C32695C1EE00FB698C /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
@@ -167,6 +170,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				18215A49269A1B4A008181CD /* RTCDeviceInfo.h */,
+				18215A4A269A1B4A008181CD /* RTCDeviceInfo.m */,
 				13B07FAE1A68108700A75B9A /* DemoForButton */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* DemoForButtonTests */,
@@ -463,6 +468,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				18215A4B269A1B4A008181CD /* RTCDeviceInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

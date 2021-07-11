@@ -3,7 +3,7 @@ import {fireEvent, render} from '@testing-library/react-native';
 import UserDetailsScreen from './UserDetailsScreen';
 import {Provider} from 'react-redux';
 import {Alert} from 'react-native';
-import store from '../redux/store';
+import store from '../../redux/store';
 
 describe('User Details Screen', () => {
   const mockNavigation = {

@@ -8,7 +8,7 @@ import {
 import {Provider} from 'react-redux';
 import {createStore} from 'redux';
 import Dashboard from './Dashboard';
-import reducers from '../redux/reducers';
+import reducers from '../../redux/reducers';
 
 describe('Dashboard Screen', () => {
   const mockNavigation = {

@@ -3,9 +3,9 @@
 import * as React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-import UserDetailsScreen from '../screens/UserDetailsScreen';
-import ButtonScreen from '../screens/ButtonScreen';
-import Dashboard from '../screens/Dashboard';
+import UserDetailsScreen from '../screens/UserDetails/UserDetailsScreen';
+import ButtonScreen from '../screens/ButtonComponent/ButtonScreen';
+import Dashboard from '../screens/Dashboard/Dashboard';
 
 const PreLogin = () => {
   const Stack = createStackNavigator();

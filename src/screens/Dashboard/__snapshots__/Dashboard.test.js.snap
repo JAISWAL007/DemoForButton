@@ -4,18 +4,24 @@ exports[`Dashboard Screen Should render Dashboard screen 1`] = `
 <RCTSafeAreaView
   emulateUnlessSupported={true}
   style={
-    Object {
-      "flex": 1,
-    }
+    Array [
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
   }
 >
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "flexDirection": "row",
-        "justifyContent": "space-around",
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-around",
+        },
+      ]
     }
   >
     <View
@@ -30,6 +36,10 @@ exports[`Dashboard Screen Should render Dashboard screen 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "borderRadius": 6,
+          "justifyContent": "center",
           "opacity": 1,
         }
       }
@@ -58,10 +68,12 @@ exports[`Dashboard Screen Should render Dashboard screen 1`] = `
     </View>
     <Text
       style={
-        Object {
-          "fontSize": 32,
-          "textAlign": "center",
-        }
+        Array [
+          Object {
+            "fontSize": 28,
+            "fontWeight": "bold",
+          },
+        ]
       }
     >
       Dashboard
@@ -78,6 +90,10 @@ exports[`Dashboard Screen Should render Dashboard screen 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "borderRadius": 6,
+          "justifyContent": "center",
           "opacity": 1,
         }
       }
@@ -107,11 +123,13 @@ exports[`Dashboard Screen Should render Dashboard screen 1`] = `
   </View>
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "justifyContent": "center",
-        "marginTop": 100,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "marginTop": 100,
+        },
+      ]
     }
   >
     <Text
